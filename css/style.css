@@ -24,3 +24,8 @@ section {
 img {
    max-width: 100%;
 }
+
+.bz-light-color {
+   background: red;
+   color: white;
+}
