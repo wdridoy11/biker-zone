@@ -25,7 +25,6 @@ img {
    max-width: 100%;
 }
 
-.bz-light-color {
-   background: red;
-   color: white;
+.arrow-line {
+   width: 58px;
 }
