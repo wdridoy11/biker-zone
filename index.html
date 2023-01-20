@@ -26,7 +26,7 @@
    <header>
       <nav class="navbar navbar-expand-lg bg-white py-5">
          <div class="container">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="./index.html">
                <h2>Bike Dekho</h2>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -35,8 +35,18 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                     <a class="nav-link active fw-bold" aria-current="page" href="./index.html">Home</a>
+                  <li class="nav-item dropdown">
+                     <a class="nav-link dropdown-toggle" href="./index.html" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Home
+                     </a>
+                     <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="./pages/home-1.html">Home 1</a></li>
+                        <li><a class="dropdown-item" href="./pages/home-2.html">Home 2</a></li>
+                        <li><a class="dropdown-item" href="./pages/home-3.html">Home 3</a></li>
+                        <li><a class="dropdown-item" href="./pages/home-4.html">Home 4</a></li>
+                        <li><a class="dropdown-item" href="./pages/home-5.html">Home 5</a></li>
+                     </ul>
                   </li>
                   <li class="nav-item">
                      <a class="nav-link" href="./pages/shop.html">Shop</a>
@@ -206,6 +216,7 @@
          </div>
       </section>
       <!-- News section end -->
+
       <!-- testimonial section start -->
       <section>
          <div class="container">
@@ -269,6 +280,7 @@
          </div>
       </section>
       <!-- testimonial section end -->
+
       <!-- FAQ section start -->
       <section>
          <div class="container">
@@ -354,7 +366,9 @@
             </div>
       </section>
       <!-- FAQ section end -->
+
    </main>
+
    <!-- footer section start -->
    <footer class="bg-dark py-5">
       <div class="container">
@@ -394,8 +408,12 @@
             </div>
             <div class="col-12 col-md-4">
                <h3 class="text-white mb-3">Get the App</h3>
-               <a class="mb-4 d-block" href="#"><img class="img-fluid w-50" src="./images/ios.png" alt="IOS"></a>
-               <a class="" href="#"><img class="img-fluid w-50" src="./images/android.png" alt="android"></a>
+               <a class="mb-4 d-block" href="#">
+                  <img class="img-fluid w-50" src="./images/ios.png" alt="IOS">
+               </a>
+               <a class="" href="#">
+                  <img class="img-fluid w-50" src="./images/android.png" alt="android">
+               </a>
             </div>
          </div>
       </div>
