@@ -28,3 +28,31 @@ img {
 .arrow-line {
    width: 58px;
 }
+
+.home-page-one-header {
+   background: #264653;
+}
+
+.header {
+   background: linear-gradient(#00000073, #00000073), url(../images/bike.png);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.banner {
+   height: 700px;
+   display: flex;
+   align-items: center;
+}
+
+.bz-BTN {
+   background: #E76F51;
+   color: #fff;
+   transition: 0.5s;
+}
+
+.bz-BTN:hover {
+   background: #000;
+   color: #fff;
+}
