@@ -34,10 +34,11 @@ img {
 }
 
 .header {
-   background: linear-gradient(#00000073, #00000073), url(../images/bike.png);
+   background: linear-gradient(#00000073, #00000073), url(../images/banner.jpg);
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
+   padding-bottom: 300px;
 }
 
 .banner {
